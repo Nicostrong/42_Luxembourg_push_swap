@@ -1,0 +1,30 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    test_a_faire                                       :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: nfordoxc <nfordoxc@42luxembourg.lu>        +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/06/07 14:53:07 by nfordoxc          #+#    #+#              #
+#    Updated: 2024/06/07 14:56:58 by nfordoxc         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+TESTER PUSH_SWAP
+
+tester avec :
+
+	./push_swap 2 4 5 -6 - 5	=> OK
+	./push_swap 2 4 5 -6- - 5	=> OK
+	./push_swap "2 4 5" "-6 5"	=> KO
+	./push_swap "2 4 8 * 6 !5"	=> OK
+	./push_swap 2 4 5 ! -6 - 5	=> OK
+	./push_swap 2 #4 5 -6 - 5	=> OK
+	./push_swap int_min - 1		=> OK
+	./push_swap int_max + 1		=> OK
+	./push_swap 2 2				=> OK
+	./push_swap 5 9 toto		=> OK
+
+Modifier le pusch_swap pour qu il prenne en compte ces cas de figure.
+Faire un tester bash
+Verifier le code erreur le la sortie
